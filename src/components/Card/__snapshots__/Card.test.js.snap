@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Card 1`] = `
+<div
+  className="Weather-card"
+>
+  <h3
+    className="day"
+  >
+    Wednesday
+     / 
+    26th June
+  </h3>
+  <img
+    alt="Weather Icon"
+    className="icon"
+    src="Sun_cloud.png"
+  />
+  <p
+    className="condition"
+  >
+    Mainly clear, partly cloudy, and overcast
+  </p>
+  <p>
+    Temp: 
+    <strong>
+      29
+       °C
+    </strong>
+  </p>
+  <p>
+    Wind: 
+    <strong>
+      12
+       km/h
+    </strong>
+  </p>
+</div>
+`;

@@ -1,0 +1,15 @@
+.searchButton {
+  background: black;
+  color: white;
+  font-size: 15px;
+  border-style: outset;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.searchInput {
+  background-color: lightgrey;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}

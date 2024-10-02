@@ -1,0 +1,41 @@
+.Weather-card {
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.day {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(17, 17, 17);
+}
+
+.description {
+  font-size: 12px;
+  color: black;
+}
+
+.temp {
+  font-size: 12px;
+  color: black;
+}
+
+.windspeed {
+  font-size: 12px;
+  color: black;
+}
+
+.icon {
+  max-width: 100px;
+}
+
+@media only screen and (min-width: 500px) {
+  .Weather-card {
+    width: 15%;
+    min-width: 200px;
+  }
+}

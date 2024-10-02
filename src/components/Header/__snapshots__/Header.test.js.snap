@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the header 1`] = `
+<header
+  className="header"
+>
+  <h1>
+    Local Weather App
+  </h1>
+</header>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Search box 1`] = `
+<form
+  className="search"
+  onSubmit={[Function]}
+>
+  <input
+    className="searchInput"
+    data-testid="text-input"
+    name="search"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <button
+    className="searchButton"
+    data-testid="submit-button"
+    type="submit"
+  >
+    Submit
+  </button>
+  <p />
+  <p />
+</form>
+`;
+
+exports[`Renders the search box a different way 1`] = `
+<div>
+  <form
+    class="search"
+  >
+    <input
+      class="searchInput"
+      data-testid="text-input"
+      name="search"
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <button
+      class="searchButton"
+      data-testid="submit-button"
+      type="submit"
+    >
+      Submit
+    </button>
+    <p />
+    <p />
+  </form>
+</div>
+`;

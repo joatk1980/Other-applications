@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the footer 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+     © Weather App. All Rights Reserved 2024.
+  </p>
+</footer>
+`;
